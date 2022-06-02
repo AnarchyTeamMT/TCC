@@ -1,4 +1,4 @@
-Frog Army Client
+Teran Client
 ========
 Based on [**Dragonfire**](https://github.com/dragonfireclient/dragonfireclient) and created for [**Minetest**](http://minetest.net/). Client created by [WennMarcoRTX](https://github.com/WennMarcoRTX) for **Frog's Army** on server **Dog Of War**.
 
@@ -8,7 +8,7 @@ Features
 1. Anti-ban system(if administrator ban your IP/local name, you can login **again**!)
 2. Custom config for Frog's Army.
 
-Developers of FrogArmyClient
+Developers of TeranClient
 ------------------
 
 **AB** - Main developer.
@@ -185,7 +185,7 @@ For Fedora users:
 
 Download source (this is the URL to the latest of source repository, which might not work at all times) using Git:
 
-    git clone --depth 1 https://github.com/WennMarcoRTX/FrogArmyClient
+    git clone --depth 1 https://github.com/WennMarcoRTX/TeranClient
     cd dragonfireclient
 
 Download minetest_game (otherwise only the "Development Test" game is available) using Git:
