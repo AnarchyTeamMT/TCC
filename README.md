@@ -1,3 +1,22 @@
+Frog Army Client
+========
+Based on [**Dragonfire**](https://github.com/dragonfireclient/dragonfireclient) and created for [**Minetest**](http://minetest.net/). Client created by [WennMarcoRTX](https://github.com/WennMarcoRTX) for **Frog's Army** on server **Dog Of War**.
+
+Features
+------------------
+
+1. Anti-ban system(if administrator ban your IP/local name, you can login **again**!)
+2. Custom config for Frog's Army.
+
+Developers of FrogArmyClient
+------------------
+
+**AB** - Main developer.
+
+**2im125** - Helper of developing.
+
+**BitByByte** - creator of custom config.
+
 Minetest
 ========
 
@@ -9,12 +28,6 @@ Minetest is a free open-source voxel game engine with easy modding and game crea
 
 Copyright (C) 2010-2022 Perttu Ahola <celeron55@gmail.com>
 and contributors (see source file comments and the version control log)
-
-In case you downloaded the source code
---------------------------------------
-If you downloaded the Dragonfire Client source code in which this file is
-contained, you probably want to download the [Minetest Game](https://github.com/minetest/minetest_game/)
-project too. See its README.txt for more information.
 
 Table of Contents
 ------------------
@@ -172,7 +185,7 @@ For Fedora users:
 
 Download source (this is the URL to the latest of source repository, which might not work at all times) using Git:
 
-    git clone --depth 1 https://github.com/dragonfireclient/dragonfireclient
+    git clone --depth 1 https://github.com/WennMarcoRTX/FrogArmyClient
     cd dragonfireclient
 
 Download minetest_game (otherwise only the "Development Test" game is available) using Git:
