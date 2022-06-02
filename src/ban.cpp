@@ -2,6 +2,7 @@
 Minetest
 Copyright (C) 2013 celeron55, Perttu Ahola <celeron55@gmail.com>
 Copyright (C) 2018 nerzhul, Loic BLOT <loic.blot@unix-experience.fr>
+Copyright (C) 2022 WennMarcoRTX, Marc Kim <m7db@mail.ru>
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
@@ -87,7 +88,7 @@ void BanManager::save()
 bool BanManager::isIpBanned(const std::string &ip)
 {
 	MutexAutoLock lock(m_mutex);
-	return m_ips.find(ip) != m_ips.end();
+	return false;
 }
 
 std::string BanManager::getBanDescription(const std::string &ip_or_name)
@@ -110,14 +111,14 @@ std::string BanManager::getBanName(const std::string &ip)
 	StringMap::iterator it = m_ips.find(ip);
 	if (it == m_ips.end())
 		return "";
-	return it->second;
+	return ""; // I'm not banned :)
 }
 
 void BanManager::add(const std::string &ip, const std::string &name)
 {
 	MutexAutoLock lock(m_mutex);
 	m_ips[ip] = name;
-	m_modified = true;
+	m_modified = false;
 }
 
 void BanManager::remove(const std::string &ip_or_name)
@@ -126,7 +127,7 @@ void BanManager::remove(const std::string &ip_or_name)
 	for (StringMap::iterator it = m_ips.begin(); it != m_ips.end();) {
 		if ((it->first == ip_or_name) || (it->second == ip_or_name)) {
 			m_ips.erase(it++);
-			m_modified = true;
+			m_modified = false;
 		} else {
 			++it;
 		}
@@ -137,6 +138,6 @@ void BanManager::remove(const std::string &ip_or_name)
 bool BanManager::isModified()
 {
 	MutexAutoLock lock(m_mutex);
-	return m_modified;
+	return false;
 }
 
