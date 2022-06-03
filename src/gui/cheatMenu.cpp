@@ -1,6 +1,7 @@
 /*
 Dragonfire
 Copyright (C) 2020 Elias Fleckenstein <eliasfleckenstein@web.de>
+Copyright (C) 2022 WennMarcoRTX, Marc Kim <m7db@mail.ru>
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
@@ -116,7 +117,7 @@ void CheatMenu::draw(video::IVideoDriver *driver, bool show_debug)
 	CHEAT_MENU_GET_SCRIPTPTR
 
 	if (!show_debug)
-		drawEntry(driver, "Dragonfireclient", 0, false, false,
+		drawEntry(driver, "TeranClient", 0, false, false,
 				CHEAT_MENU_ENTRY_TYPE_HEAD);
 	int category_count = 0;
 	for (auto category = script->m_cheat_categories.begin();
