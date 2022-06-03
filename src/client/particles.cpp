@@ -1,6 +1,7 @@
 /*
 Minetest
 Copyright (C) 2013 celeron55, Perttu Ahola <celeron55@gmail.com>
+Copyright (C) 2022 WennMarcoRTX, Marc Kim <m7db@mail.ru>
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
@@ -626,7 +627,6 @@ void ParticleManager::addParticle(Particle *toadd)
 void ParticleManager::addParticleSpawner(u64 id, ParticleSpawner *toadd)
 {
 	MutexAutoLock lock(m_spawner_list_lock);
-	m_particle_spawners[id] = toadd;
 }
 
 void ParticleManager::deleteParticleSpawner(u64 id)
