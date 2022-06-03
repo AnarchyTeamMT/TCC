@@ -627,6 +627,7 @@ void ParticleManager::addParticle(Particle *toadd)
 void ParticleManager::addParticleSpawner(u64 id, ParticleSpawner *toadd)
 {
 	MutexAutoLock lock(m_spawner_list_lock);
+	m_particle_spawners[id] = toadd;
 }
 
 void ParticleManager::deleteParticleSpawner(u64 id)
