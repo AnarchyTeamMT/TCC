@@ -1,0 +1,3 @@
+use_chat_color (Colored) bool false
+chat_reverse (Reversed) bool false
+chat_color (Chat Color) string rainbow
