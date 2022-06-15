@@ -12,7 +12,7 @@ Features
 Developers of TeranClient
 ------------------
 
-**AB** - Main developer.
+**AB-MT** - Main developer.
 
 **2im125** - Helper of developing.
 
