@@ -1,6 +1,6 @@
 Teran Client
 ========
-Based on [**Dragonfire**](https://github.com/dragonfireclient/dragonfireclient) and created for [**Minetest**](http://minetest.net/). Client created by [WennMarcoRTX](https://github.com/WennMarcoRTX) for **Teeranu Team** on server **Dog Of War**.
+Based on [**Dragonfire**](https://github.com/dragonfireclient/dragonfireclient) and created for [**Minetest**](http://minetest.net/). Client created by [WennMarcoRTX](https://github.com/WennMarcoRTX) for **Teeranu Team**.
 
 Features
 ------------------
