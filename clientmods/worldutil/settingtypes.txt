@@ -1,0 +1,7 @@
+scaffold (Scaffold) bool false
+scaffold_plus (ScaffoldPlus) bool false
+block_water (BlockWater) bool false
+block_lava (BlockLava) bool false
+autotnt (AutoTNT) bool false
+nuke (Nuke) bool false
+replace (Replace) bool false
