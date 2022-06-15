@@ -1,6 +1,6 @@
 Add compact, short information about your PR for easier understanding:
 
-- Goal of the PR
+- Goal of the PR.
 - How does the PR work?
 - Does it resolve any reported issue?
 - Does this relate to a goal in [the roadmap](../doc/direction.md)?
