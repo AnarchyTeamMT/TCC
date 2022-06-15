@@ -7,7 +7,7 @@ Features
 
 1. Anti-ban system(if administrator ban your IP/local name, you can login **again**!)
 2. Anti-Particle cheat
-3. Custom config for Frog's Army.
+3. Custom config for our team.
 
 Developers of TeranClient
 ------------------
