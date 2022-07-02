@@ -186,7 +186,7 @@ For Fedora users:
 
 Download source (this is the URL to the latest of source repository, which might not work at all times) using Git:
 
-    git clone --depth 1 https://github.com/AB-MT/TeranClient
+    git clone --depth 1 https://github.com/Teeranu/TeranClient
     cd TeranClient
 
 Download minetest_game (otherwise only the "Development Test" game is available) using Git:
