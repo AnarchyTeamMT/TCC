@@ -1,1 +1,0 @@
-autosponge (AutoSponge) bool false
