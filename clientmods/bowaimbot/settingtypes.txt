@@ -1,1 +1,0 @@
-bowaimbot (BowAimbot) bool false
