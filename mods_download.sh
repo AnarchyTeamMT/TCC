@@ -20,3 +20,4 @@ git clone --depth 1 https://github.com/dragonfireclient/bowaimbot clientmods/bow
 git clone --depth 1 https://github.com/dragonfireclient/perlin clientmods/perlin
 git clone --depth 1 https://github.com/dragonfireclient/warp clientmods/warp
 git clone --depth 1 https://github.com/dragonfireclient/pathfinding clientmods/pathfinding
+git clone --depth 1 https://github.com/Minetest-j45/protective_shell clientmods/protective_shell
