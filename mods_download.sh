@@ -22,3 +22,7 @@ git clone --depth 1 https://github.com/dragonfireclient/warp clientmods/warp
 git clone --depth 1 https://github.com/dragonfireclient/pathfinding clientmods/pathfinding
 git clone --depth 1 https://github.com/Minetest-j45/protective_shell clientmods/protective_shell
 git clone --depth 1 https://github.com/AFCMS/https://github.com/AFCMS/df_crypt_chat clientmods/df_crypth_chat
+git clone --depth 1 https://github.com/Code-Sploit/df-mod-arrowblocker clientmods/df_mod_arrowblocker
+git clone --depth 1 https://github.com/Code-Sploit/df-mod-fastbridge clientmods/df_mod_fastbridge
+git clone --depth 1 https://github.com/Code-Sploit/df-mod-beddestroyer clientmods/df_mod_beddestroyer
+git clone --depth 1 https://github.com/Code-Sploit/df-mod-automlg clientmods/df_mod_automlg
