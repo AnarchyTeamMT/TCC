@@ -4,8 +4,8 @@ Based on [**Dragonfire**](https://github.com/dragonfireclient/dragonfireclient) 
 
 Some information...
 ------------------
-This client is ** N O T    M A I N **. Main client is private and it have more hard clientmods and exploits. *TeranClient is for everyone since 2022-09-13.*
-Also, ** DO NOT USE CHEATS ON SERVERS WHERE IT IS NOT ALLOWED! **
+This client is **N O T    M A I N**. Main client is private and it have more hard clientmods and exploits. *TeranClient is for everyone since 2022-09-13.*
+Also, **DO NOT USE CHEATS ON SERVERS WHERE IT IS NOT ALLOWED!**
 
 Features
 ------------------
