@@ -2,14 +2,18 @@ Teran Client
 ========
 Based on [**Dragonfire**](https://github.com/dragonfireclient/dragonfireclient) and created for [**Minetest**](http://minetest.net/). Client created by [AB-MT](https://github.com/AB-MT) for **Teeranu Team**.
 
+Some information...
+------------------
+This client is ** N O T    M A I N **. Main client is private and it have more hard clientmods and exploits. *TeranClient is for everyone since 2022-09-13.*
+Also, ** DO NOT USE CHEATS ON SERVERS WHERE IT IS NOT ALLOWED! **
+
 Features
 ------------------
 
-1. Anti-ban system(if administrator ban your IP/local name, you can login **again**!)
-2. Anti-Particle cheat
-3. Expnesive blocks finder
-4. Chests finder
-5. Custom config for our team.
+1. Anti-Particle cheat
+2. Expenesive blocks finder
+3. Chests finder
+4. Custom config for our team.
 
 Developers of TeranClient
 ------------------
