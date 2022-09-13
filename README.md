@@ -1,6 +1,6 @@
 Teran Client
 ========
-Based on [**Dragonfire**](https://github.com/dragonfireclient/dragonfireclient) and created for [**Minetest**](http://minetest.net/). Client created by [AB-MT](https://github.com/AB-MT) for **Teeranu Team**.
+Based on [**Dragonfire**](https://github.com/dragonfireclient/dragonfireclient) and created for [**Minetest**](http://minetest.net/). Client created by [AB-MT](https://github.com/AB-MT) for **Everyone**.
 
 Some information...
 ------------------
@@ -13,7 +13,7 @@ Features
 1. Anti-Particle cheat
 2. Expenesive blocks finder
 3. Chests finder
-4. Custom config for our team.
+4. Custom config.
 
 Developers of TeranClient
 ------------------
