@@ -29,6 +29,7 @@ core.cheats = {
 		["PlayerTracers"] = "enable_player_tracers",
 		["NodeESP"] = "enable_node_esp",
 		["NodeTracers"] = "enable_node_tracers",
+		["DeathTracer"] = "enable_death_tracer",
 	},
 	["Interact"] = {
 		["FastDig"] = "fastdig",

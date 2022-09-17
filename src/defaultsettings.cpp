@@ -119,6 +119,7 @@ void set_default_settings()
 	settings->setDefault("enable_player_tracers", "false");
 	settings->setDefault("enable_node_esp", "false");
 	settings->setDefault("enable_node_tracers", "false");
+	settings->setDefault("enable_death_tracer","true");
 	settings->setDefault("entity_esp_color", "(255, 255, 255)");
 	settings->setDefault("player_esp_color", "(0, 255, 0)");
 	settings->setDefault("tool_range", "2");

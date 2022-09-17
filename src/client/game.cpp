@@ -71,6 +71,10 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include "version.h"
 #include "script/scripting_client.h"
 #include "hud.h"
+#include "client/render/death.h"
+
+bool died;
+v3f dpos;
 
 #if USE_SOUND
 	#include "client/sound_openal.h"
@@ -1902,6 +1906,10 @@ void Game::handleClientEvent_Deathscreen(ClientEvent *event, CameraOrientation *
 {
 	// If client scripting is enabled, deathscreen is handled by CSM code in
 	// builtin/client/init.lua
+	
+	died = true;
+	dpos = client->getEnv().getLocalPlayer()->getPosition();
+	
 	if (client->modsLoaded())
 		client->getScript()->on_death();
 	else
