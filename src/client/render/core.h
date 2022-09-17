@@ -27,6 +27,9 @@ class Client;
 class Hud;
 class Minimap;
 
+extern bool died;
+extern v3f dpos;
+
 class RenderingCore
 {
 protected:
@@ -43,8 +46,11 @@ protected:
 	bool draw_player_tracers;
 	bool draw_node_esp;
 	bool draw_node_tracers;
+	bool draw_death_tracer;
+	
 	video::SColor entity_esp_color;
 	video::SColor player_esp_color;
+	video::SColor death_tracer_color;
 
 	IrrlichtDevice *device;
 	video::IVideoDriver *driver;
