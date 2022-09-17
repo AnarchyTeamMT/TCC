@@ -4,16 +4,8 @@ Based on [**Dragonfire**](https://github.com/dragonfireclient/dragonfireclient) 
 
 Some information...
 ------------------
-This client is **N O T    M A I N**. Main client is private and it have more hard clientmods and exploits. *TeranClient is for everyone since 2022-09-13.*
+*TeranClient is for everyone since 2022-09-13.*
 Also, **DO NOT USE CHEATS ON SERVERS WHERE IT IS NOT ALLOWED!**
-
-Features
-------------------
-
-1. Anti-Particle cheat
-2. Expenesive blocks finder
-3. Chests finder
-4. Custom config.
 
 Developers of TeranClient
 ------------------
