@@ -71,7 +71,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include "version.h"
 #include "script/scripting_client.h"
 #include "hud.h"
-#include "client/render/death.h"
+#include "client/render/core.h"
 
 bool died;
 v3f dpos;
