@@ -85,10 +85,13 @@ void RenderingCore::draw(video::SColor _skycolor, bool _show_hud, bool _show_min
 	draw_player_tracers = g_settings->getBool("enable_player_tracers");
 	draw_node_esp = g_settings->getBool("enable_node_esp");
 	draw_node_tracers = g_settings->getBool("enable_node_tracers");
+	draw_death_tracer = g_settings->getBool("enable_death_tracer");
 	v3f entity_color = g_settings->getV3F("entity_esp_color");
 	v3f player_color = g_settings->getV3F("player_esp_color");
 	entity_esp_color = video::SColor(255, entity_color.X, entity_color.Y, entity_color.Z);
 	player_esp_color = video::SColor(255, player_color.X, player_color.Y, player_color.Z);
+	death_tracer_color = video::SColor(255,255,255,255);
+	
 
 	if (shadow_renderer) {
 		// This is necessary to render shadows for animations correctly
@@ -169,6 +172,13 @@ void RenderingCore::drawTracersAndESP()
 			}
 		}
 	}
+	if(draw_death_tracer && died){
+		aabb3f box;
+		box.MinEdge += dpos;
+		box.MaxEdge += dpos;
+		driver->draw3DLine(eye_pos,box.getCenter(),death_tracer_color);
+		driver->draw3DBox(box,death_tracer_color);
+	}
 
 	driver->setMaterial(oldmaterial);
 }
@@ -184,7 +194,7 @@ void RenderingCore::draw3D()
 		return;
 	hud->drawBlockBounds();
 	hud->drawSelectionMesh();
-	if (draw_entity_esp || draw_entity_tracers || draw_player_esp || draw_player_tracers || draw_node_esp || draw_node_tracers)
+	if (draw_entity_esp || draw_entity_tracers || draw_player_esp || draw_player_tracers || draw_node_esp || draw_node_tracers || draw_death_tracer)
 		drawTracersAndESP();
 	if (draw_wield_tool)
 		camera->drawWieldedTool();
