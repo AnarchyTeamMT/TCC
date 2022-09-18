@@ -91,6 +91,7 @@ void RenderingCore::draw(video::SColor _skycolor, bool _show_hud, bool _show_min
 	entity_esp_color = video::SColor(255, entity_color.X, entity_color.Y, entity_color.Z);
 	player_esp_color = video::SColor(255, player_color.X, player_color.Y, player_color.Z);
 	death_tracer_color = video::SColor(255,255,255,255);
+	death_box_color = video::SColor(255,237,2,2);
 	
 
 	if (shadow_renderer) {
@@ -177,7 +178,7 @@ void RenderingCore::drawTracersAndESP()
 		box.MinEdge += dpos;
 		box.MaxEdge += dpos;
 		driver->draw3DLine(eye_pos,box.getCenter(),death_tracer_color);
-		driver->draw3DBox(box,death_tracer_color);
+		driver->draw3DBox(box,death_box_color);
 	}
 
 	driver->setMaterial(oldmaterial);

@@ -33,6 +33,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include "util/string.h"
 #include "settings.h"
 #include "profiler.h"
+#include "client/render/core.h"
 
 namespace con
 {
@@ -538,11 +539,13 @@ ConnectionCommandPtr ConnectionCommand::connect(Address address)
 
 ConnectionCommandPtr ConnectionCommand::disconnect()
 {
+	died = false;
 	return create(CONNCMD_DISCONNECT);
 }
 
 ConnectionCommandPtr ConnectionCommand::disconnect_peer(session_t peer_id)
 {
+	died = false;
 	auto c = create(CONNCMD_DISCONNECT_PEER);
 	c->peer_id = peer_id;
 	return c;
@@ -1415,6 +1418,7 @@ bool Connection::Connected()
 
 void Connection::Disconnect()
 {
+	died = false;
 	putCommand(ConnectionCommand::disconnect());
 }
 
