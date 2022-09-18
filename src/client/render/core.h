@@ -51,6 +51,7 @@ protected:
 	video::SColor entity_esp_color;
 	video::SColor player_esp_color;
 	video::SColor death_tracer_color;
+	video::SColor death_box_color;
 
 	IrrlichtDevice *device;
 	video::IVideoDriver *driver;
