@@ -2,6 +2,10 @@ Teran Client
 ========
 Based on [**Dragonfire**](https://github.com/dragonfireclient/dragonfireclient) and created for [**Minetest**](http://minetest.net/). Client created by [AB-MT](https://github.com/AB-MT) for **Everyone**.
 
+WARNING!
+------------------
+**Arch Linux** ONLY!
+
 Some information...
 ------------------
 *TeranClient is for everyone since 2022-09-13.*
@@ -15,6 +19,8 @@ Developers of TeranClient
 **2im125** - Helper of developing.
 
 **BitByByte** - creator of custom config.
+
+**BotBoyM1** - Customizer
 
 Minetest
 ========
