@@ -190,7 +190,8 @@ For Fedora users:
 
 Download source (this is the URL to the latest of source repository, which might not work at all times) using Git:
 
-    git clone --depth 1 https://github.com/Teeranu/TeranClient
+    git clone --depth 1 https://github.com/BotBoyM1/TeranClientCustomized
+
     cd TeranClient
 
 Download minetest_game (otherwise only the "Development Test" game is available) using Git:
@@ -200,28 +201,6 @@ Download minetest_game (otherwise only the "Development Test" game is available)
 Download IrrlichtMt to `lib/irrlichtmt`, it will be used to satisfy the IrrlichtMt dependency that way:
 
     git clone --depth 1 https://github.com/minetest/irrlicht.git lib/irrlichtmt
-
-Download source, without using Git:
-
-    wget https://github.com/minetest/minetest/archive/master.tar.gz
-    tar xf master.tar.gz
-    cd minetest-master
-
-Download minetest_game, without using Git:
-
-    cd games/
-    wget https://github.com/minetest/minetest_game/archive/master.tar.gz
-    tar xf master.tar.gz
-    mv minetest_game-master minetest_game
-    cd ..
-
-Download IrrlichtMt, without using Git:
-
-    cd lib/
-    wget https://github.com/minetest/irrlicht/archive/master.tar.gz
-    tar xf master.tar.gz
-    mv irrlicht-master irrlichtmt
-    cd ..
 
 #### Build
 
