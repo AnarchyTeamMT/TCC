@@ -127,6 +127,7 @@ void set_default_settings()
 	settings->setDefault("killaura", "false");
 	settings->setDefault("airjump", "false");
 	settings->setDefault("spider", "false");
+	settings->setDefault("fastplace_interval","0.0001")
 
 	// Keymap
 	settings->setDefault("remote_port", "30000");
