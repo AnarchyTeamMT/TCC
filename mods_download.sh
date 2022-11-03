@@ -26,4 +26,7 @@ git clone --depth 1 https://github.com/Code-Sploit/df-mod-arrowblocker clientmod
 git clone --depth 1 https://github.com/Code-Sploit/df-mod-fastbridge clientmods/df_mod_fastbridge
 git clone --depth 1 https://github.com/Code-Sploit/df-mod-beddestroyer clientmods/df_mod_beddestroyer
 git clone --depth 1 https://github.com/Code-Sploit/df-mod-automlg clientmods/df_mod_automlg
-git clone --depth 1 https://github.com/Code-Sploit/df-mod-panic clientmpds/df_mod_panic
+git clone --depth 1 https://github.com/Code-Sploit/df-mod-panic clientmods/df_mod_panic
+git clone --depth 1 https://github.com/Code-Sploit/df-mod-locator clientmods/df_mod_locator
+git clone --depth 1 https://github.com/Code-Sploit/df-mod-playertrapper clientmods/df_mod_playertrapper
+git clone --depth 1 https://github.com/Code-Sploit/adv-cheat-gui clientmods/adv_cheat_gui
