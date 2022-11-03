@@ -5,7 +5,7 @@ git clone --depth 1 https://github.com/dragonfireclient/simpletp clientmods/simp
 git clone --depth 1 https://github.com/dragonfireclient/karaoke clientmods/karaoke
 git clone --depth 1 https://github.com/dragonfireclient/diglib clientmods/diglib
 git clone --depth 1 https://github.com/dragonfireclient/digcustom clientmods/digcustom
-git clone --depth 1 https://github.com/dragonfireclient/autokey clientmods/ autokey
+git clone --depth 1 https://github.com/dragonfireclient/autokey clientmods/autokey
 git clone --depth 1 https://github.com/dragonfireclient/draining clientmods/draining
 git clone --depth 1 https://github.com/dragonfireclient/autoeat clientmods/autoeat
 git clone --depth 1 https://github.com/dragonfireclient/autodupe clientmods/autodupe
