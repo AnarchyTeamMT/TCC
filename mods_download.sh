@@ -32,3 +32,5 @@ git clone --depth 1 https://github.com/Code-Sploit/df-mod-playertrapper clientmo
 git clone --depth 1 https://github.com/Code-Sploit/adv-cheat-gui clientmods/adv_cheat_gui
 git clone --depth 1 https://github.com/EliasFleckenstein03/lua_async clientmods/lua_async
 git clone --depth 1 https://github.com/AFCMS/df_crypt_chat clientmods/df_crypt_chat
+
+git clone --depth 1 https://github.com/BotBoyM1/waspsaliva-for-Teran clientmods/Tewasp_pack
