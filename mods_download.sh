@@ -34,3 +34,4 @@ git clone --depth 1 https://github.com/EliasFleckenstein03/lua_async clientmods/
 git clone --depth 1 https://github.com/AFCMS/df_crypt_chat clientmods/df_crypt_chat
 
 git clone --depth 1 https://github.com/BotBoyM1/waspsaliva-for-Teran clientmods/Tewasp_pack
+git clone --depth 1 https://github.com/BotBoyM1/dragonfire-for-Teran clientmods/dragonfire_pack
