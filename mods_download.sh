@@ -30,3 +30,4 @@ git clone --depth 1 https://github.com/Code-Sploit/df-mod-panic clientmods/df_mo
 git clone --depth 1 https://github.com/Code-Sploit/df-mod-locator clientmods/df_mod_locator
 git clone --depth 1 https://github.com/Code-Sploit/df-mod-playertrapper clientmods/df_mod_playertrapper
 git clone --depth 1 https://github.com/Code-Sploit/adv-cheat-gui clientmods/adv_cheat_gui
+git clone --depth 1 https://github.com/EliasFleckenstein03/lua_async clientmods/lua_async
