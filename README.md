@@ -8,21 +8,17 @@ WARNING!
 ------------------
 **Arch Linux** ONLY!
 
-Some information...
-------------------
-*TeranClient is for everyone since 2022-09-13.*
-Also, **DO NOT USE CHEATS ON SERVERS WHERE IT IS NOT ALLOWED!**
 
-Developers of TeranClient
+Developers of TeranClientCustomized
 ------------------
 
-**AB-MT** - Main developer.
+**AB-MT** - Main developer of TeranClient
 
-**2im125** - Helper of developing.
+**2im125** - Helper of developing TeranClient
 
-**BitByByte** - creator of custom config.
+**BitByByte** - Creator of custom config(for TeranClient)
 
-**BotBoyM1** - Customizer
+**BotBoyM1** - Creator of TCC(Teran. Client. Customized.)
 
 Minetest
 ========
