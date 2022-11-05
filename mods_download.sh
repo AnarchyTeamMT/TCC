@@ -35,3 +35,6 @@ git clone --depth 1 https://github.com/AFCMS/df_crypt_chat clientmods/df_crypt_c
 
 git clone --depth 1 https://github.com/BotBoyM1/waspsaliva-for-Teran clientmods/Tewasp_pack
 git clone --depth 1 https://github.com/BotBoyM1/dragonfire-for-Teran clientmods/dragonfire_pack
+
+
+git clone --depth 1 https://github.com/BotBoyM1/mc-textures-fixed textures/mc_textures
