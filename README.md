@@ -2,10 +2,6 @@ Teran Client
 ========
 Based on [**Dragonfire**](https://github.com/dragonfireclient/dragonfireclient) and created for [**Minetest**](http://minetest.net/). Client created by [AB-MT](https://github.com/AB-MT) for **Everyone**.
 
-
-
-Questions - NeMa3rX#3275
-
 WARNING!
 ------------------
 **Arch Linux** ONLY!
